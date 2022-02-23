@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #0081a7;
+}
+
+#home {
+  text-align: center;
+  background-color: transparent;
+  color: #fed9b7;
+  outline: 3px #fed9b7 solid;
+  outline-offset: -2px;
+}
+
+#home h1 {
+  padding: 10px 0;
+}
+
+#nav_container {
+  background-color: #f07167;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1% 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.nav_buttons {
+  padding: 0.5% 0.25%;
+  transform: skewX(-9deg);
+  transition: 1s;
+  font-family: "Gideon Roman", cursive;
+  font-size: larger;
+  background-color: #fdfcdc;
+  color: #f07167;
+  border: 0;
+  outline: 3px #fed9b7 solid;
+  outline-offset: -5px;
+}
+
+.nav_buttons:hover {
+  transform: skewX(-9deg) scale(1.25);
+}
+
+.nav_buttons > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  background-color: #fdfcdc;
+  color: #00afb9;
+}
+
+section > h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#profile_photo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+}
+
+#about_me > p {
+  text-align: justify;
+  margin: 5px;
+}
+
+#gallery > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+div > img {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  transition: 2s;
+}
+
+div > img:hover {
+  transform: scale(1.1);
+}
+
+#contact_me a {
+  text-decoration: none;
+  color: inherit;
+}
